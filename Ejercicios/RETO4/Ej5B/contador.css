@@ -1,0 +1,29 @@
+/* CSS Document */
+#contenedor {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+input, button{
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
+table{
+	width: 60%;
+	margin: 0px auto;
+}
+
+p {
+	color: black;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-top: 15px;
+}
+h1 {
+	color: white;
+	background-color: #228B22;
+	padding: 10px;
+}
+
