@@ -1,0 +1,19 @@
+/* CSS Document */
+ 
+#contenedor{
+	width: 600px;	
+	margin: 0px auto;
+	text-align: center;
+}
+p {
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-top: 15px;
+}
+#cabecera {
+	height: 50px;
+	background-color: #228B22;
+	margin-bottom: 5px;
+}
+
