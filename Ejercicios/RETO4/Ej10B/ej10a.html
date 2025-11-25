@@ -1,0 +1,27 @@
+<body>
+<center><h1>FORMULARIO</h1></center>
+<form name="form1" action="tratarDatos.php" method="post" id="formulario">
+<table width="40%" align="center">
+<tr>
+<td>Nombre: </td>
+<td><input type="text" name="nombre" size="20" maxlength="30" placeholder="Ingrese su
+nombre"/></td>
+</tr>
+<tr>
+<td>Edad: </td>
+<td><input type="text" name="edad" size="2" maxlength="2" placeholder=">17"/></td>
+</tr>
+<tr>
+<td> </td>
+<td><button type="submit">Enviar datos</button> </td>
+</tr>
+
+<tr><td>DNI:</td>
+<td><input name="dni" type="text" placeholder="Ingrese su DNI" required pattern="[0-9]{8}[A-Z]{1}" maxlenght="9"></td>
+</tr>
+<tr><td>Email:</td>
+<td><input name="email" type="text" placeholder="Ingrese su email" maxlenght="15"></td></tr>
+</table>
+</form>
+<script src="script.js"></script>
+</body>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+<title>Insert title here</title>
+<link rel="stylesheet" href="ejercicio11b.css">
+</head>
+<body>
+<h1>INICIAR SESIÓN</h1>
+
+  <form action="procesarDatos.php" method="post">
+    <div id="elusuario">
+      <label for="username">Usuario:</label>
+      <input id="user" type="text" size="20" name="username" required placeholder="Ingrese su usuario">
+    </div>
+
+    <div id="lacontrasena">
+      <label for="contra">Contraseña:</label>
+      <div id="inputimagen">
+        <input id="passwd" type="password" size="20" name="password" required placeholder="Ingrese su contraseña">
+        <img src="images/vercontra.jpg" alt="Icono de candado">
+      </div>
+    </div>
+
+    <div id="iniciosesion">
+      <button type="submit">Iniciar sesión</button>         
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

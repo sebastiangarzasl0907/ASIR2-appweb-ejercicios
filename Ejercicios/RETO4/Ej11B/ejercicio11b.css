@@ -1,0 +1,42 @@
+
+   h1 {
+      text-align: center;
+      padding: 10px;
+   }
+   img{
+    width: 30px;
+    display: none;
+    cursor: pointer;
+ }
+ #username{
+    border: 1px solid rgb(100, 100, 100);
+    padding: 5px;
+ }
+ #password{
+    border: 0px;
+    padding: 5px;
+ }
+ #inputimagen{
+    display: flex;
+    border: 1px solid rgb(100, 100, 100);
+ }
+ form{
+    width: 320px;
+    margin: 0px auto;
+ }
+#elusuario{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#lacontrasena{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#iniciosesion{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+ 
