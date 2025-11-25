@@ -1,0 +1,64 @@
+h1{
+    background-color: rgb(160, 155, 155);
+}
+h2{
+    background-color: rgb(201, 191, 191);
+}    
+li{
+    width: 15%;
+    margin: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+    table, td{
+        border: 1px solid black;
+        border: none;
+    }
+    td{
+        padding: 10px;
+    }
+    td{
+        text-align: center;
+    }
+    .tablaprofe{
+        margin-left: 100px;
+        margin-bottom: 40px;
+        width: 14%;
+    }
+
+    .tablaprofe td{
+        background-color: rgb(170, 35, 35); 
+        color: white;
+    }
+    .pasillo {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+    }
+    .tablaasientos{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .tablaasientos td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 20px; 
+        text-align: center;
+    }
+    .tablaultima{
+        width: 10%;
+        border: 1px solid black;
+        margin: 0px auto;
+    }
+    .pasillo{
+        border: none !important;
+    }
+
+    button{
+        margin-left: 50px;
+        padding: 10px;
+        border: black solid;
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
