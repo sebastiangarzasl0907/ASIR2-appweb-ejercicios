@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+<title>Insert title here</title>
+</head>
+<body>
+    <center><h1>CONVERSIÓN DE MONEDA</h1></center>
+      <table width="40%" align="center">
+         <tr>
+            <td>€uros a convertir: </td>
+            <td><input type="number" id="euros" size="20" maxlength="30" placeholder="Ingrese los €"/></td>
+         </tr>
+         <tr>
+            <td>Elige la moneda: </td>
+            <td><select name="select" id="opcion">
+               <option value="dolar" selected>Dolares</option>
+               <option value="libras">Libras</option>
+               <option value="yen">Yenes</option>
+             </select></td>
+         </tr>
+         <tr>
+             <td> </td>
+             <td><button id="boton">Convertir</button> </td>
+         </tr>
+         
+         <tr><td>Resultado:</td>
+            <td><input id="resultado" type="text" placeholder="Resultado" maxlenght="9"></td>
+         </tr>
+      </table>
+      <script src="script.js"></script>
+</body>
+</html>

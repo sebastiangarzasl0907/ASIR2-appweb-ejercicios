@@ -1,0 +1,39 @@
+/* Puedes agregar estilos CSS aquí para personalizar la apariencia */
+#contenedor{
+    text-align: justify; /* Alinea el texto a ambos lados */
+    line-height: 1.5; /* Ajusta el espacio entre líneas */
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    overflow-y: scroll;
+}
+
+h1, p{
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+} 
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#elboton{
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+}
+button{
+    width: 150px;
+}
+
+#verificacion{
+    display: flex;
+    text-align: justify; /* Alinea el texto a ambos lados */
+    line-height: 1.5; /* Ajusta el espacio entre líneas */
+    width: 400px;
+    margin: 20px auto;
+}
+label{
+    font-size: 0.8em;
+}
