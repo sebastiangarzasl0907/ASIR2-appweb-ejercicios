@@ -1,11 +1,12 @@
-// EVENTO 1
+// EVENTO 1, HACER UN ALERT CUANDO SE CARGA LA PÁGINA USANDO EVENTO LOAD O ONLOAD
 document.body.addEventListener('load', saludar()) 
 function saludar() {
     alert('hola, evento1')
 }
 
 
-// EVENTO 2
+// EVENTO 2, USANDO MOUSEOVER O MOUSEOUT CUANDO SE PASA POR ENCIMA DE H1 SE CAMBIA EL COLOR, CUANDO SE ALEJA DEL H1 VUELVE AL COLOR ORIGINAL
+// SE HA USADO UNA FUNCIÓN QUE GENERA UN COLOR ALEATORIO, MAS ABAJO
 var evento2 = document.getElementById('evento2')
 evento2.addEventListener('mouseover', over)
 evento2.addEventListener('mouseout', out)
@@ -19,7 +20,7 @@ function out() {
     evento2.style.color = 'black'   
 }
 
-// EVENTO 3
+// EVENTO 3, USANDO LOS EVENTOS MOUSEDOWN Y MOUSEUP DETECTA CUANDO PICO LA IMAGEN Y CUANDO LA SUELTO. ASÍ PUEDO CAMBIAR LA IMAGEN
 
 imagen = document.getElementById('gato')
 imagen.addEventListener('mousedown', cambiar)
@@ -33,7 +34,7 @@ function restablecer() {
     imagen.src = 'img/gatoenfadado.jpg'
 }
 
-// EVENTO4 
+// EVENTO4 , CUANDO HAGO CLICK EN EL BOTÓN CAMBIO EL COLOR DEL FONDO DE LA PAGINA (BODY)
 
 boton = document.getElementById('cambiar')
 boton.addEventListener('click', cambiofondo)
