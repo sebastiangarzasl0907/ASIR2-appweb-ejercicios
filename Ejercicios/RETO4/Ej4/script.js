@@ -1,10 +1,11 @@
 // EVENTO 1
+document.body.addEventListener('load', saludar()) 
 function saludar() {
     alert('hola, evento1')
 }
 
 
-// EVENTO 2, ID CREADA EN HTML Y EVENTO DECLARADO EN JS
+// EVENTO 2
 var evento2 = document.getElementById('evento2')
 evento2.addEventListener('mouseover', over)
 evento2.addEventListener('mouseout', out)
