@@ -1,13 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Mi Página con Menú Desplegable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: visible;
+      height: 50px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+
+    /* Estilo para el menú desplegable */
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    nav ul li ul li a {
+      padding: 12px 16px;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+      position: static;
+      z-index: 999;
+    }
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-seccion {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-seccion h3 {
+  margin-bottom: 10px;
+  color: #f1f1f1;
+}
+
+.footer-seccion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-seccion ul li {
+  margin-bottom: 8px;
+}
+
+.footer-seccion ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-seccion ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+html, body {
+  height: 100%;          /* ocupa toda la ventana */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;               /* empuja el footer hacia abajo */
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+  </style>
 </head>
 <body>
+
+  <nav>
     <ul>
-        <li><a href="Ejercicios/RETO4/Ej4/ej4.html">Ejercicio 4</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li>
+        <a href="#">DOM JS ▼</a>
+        <ul>
+          <li><a href="Ejercicios/RETO4/Ej1/index.html">Ej 1</a></li>
+          <li><a href="Ejercicios/RETO4/Ej2/index.html">Ej 2</a></li>
+          <li><a href="Ejercicios/RETO4/Ej3A/index.html">Ej 3A</a></li>
+          <li><a href="Ejercicios/RETO4/Ej3B/index.html">Ej 3B</a></li>
+          <li><a href="Ejercicios/RETO4/Ej3C/index.html">Ej 3C</a></li>
+          <li><a href="Ejercicios/RETO4/Ej4/ej4.html">Ej 4</a></li>
+          <li><a href="Ejercicios/RETO4/Ej5/ejercicio5a.html">Ej 5</a></li>
+          <li><a href="Ejercicios/RETO4/Ej5A/ejercicio5a.html">Ej 5A</a></li>
+          <li><a href="Ejercicios/RETO4/Ej5B/contador.html">Ej 5B</a></li>
+          <li><a href="Ejercicios/RETO4/EJ6/e6.html">Ej 6</a></li>
+          <li><a href="Ejercicios/RETO4/Ej7/index.html">Ej 7</a></li>
+          <li><a href="Ejercicios/RETO4/Ej7B/index.html">Ej 7B</a></li>
+          <li><a href="Ejercicios/RETO4/Ej8/ej8.html">Ej 8</a></li>
+          <li><a href="Ejercicios/RETO4/Ej9/ejer12pagina1.html">Ej 9</a></li>
+          <li><a href="Ejercicios/RETO4/Ej10A/ej10a.html">Ej 10A</a></li>
+          <li><a href="Ejercicios/RETO4/Ej10B/ej10a.html">Ej 10B</a></li>
+          <li><a href="Ejercicios/RETO4/Ej11A/ej11a.html">Ej 11A</a></li>
+          <li><a href="Ejercicios/RETO4/Ej11B/ejercicio11b.html">Ej 11B</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">EXAMEN RETO 4▼</a>
+        <ul>
+          <li><a href="https://www.youtube.com/shorts/f2NULwrFiEg">PROXIMAMENTE</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">Acerca de</a></li>
     </ul>
+  </nav>
+
+  <main style="padding:20px;">
+    <h1>Como has aprobado la recu?</h1>
+    <p>Porque uso apuntes-appweb, todos los ejercicios del RETO 4, aparte de los exámenes corregidos.</p>
+  </main>
+
+<footer>
+  <div class="footer-contenido">
+    <div class="footer-seccion">
+      <h3>Aviso</h3>
+          <p>la página está aún en fase BETA, seguiré actualizandola mientras haga apuntes. 
+        Y esto va dirigido a todos, especialmente a los profesores que vean esto: yo no me hago responsable 
+        de lo que hagais con mis apuntes, lo he hecho público para facilitar los estudios a mí y a mis compañeros. </p>
+    </div>
+    <div class="footer-seccion">
+      <h3>Enlaces útiles</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
 </body>
 </html>
