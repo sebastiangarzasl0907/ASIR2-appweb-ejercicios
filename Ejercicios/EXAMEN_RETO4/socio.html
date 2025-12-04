@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilo1.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Club</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" id="logo" src="imagenes/escudo.jpg"></a>
+        <div class="enlaces">
+            <a href="alineacion.html">Alineación</a>
+            <a href="socio.html">Hazte socio</a>
+            <a href="areasocio.html">Area socio</a>
+            <a href="juego.html">Juego</a>
+        </div>
+    </header>
+  <h2>Hazte socio o abonado para la temporada 24/25</h2>
+<div class="central2">
+    <table id="tablacuota">
+        <caption>CONSULTA EL PRECIO DEL SOCIO/ABONO</caption>
+        <tr>
+            <td>Elige socio o abonado</td>
+            <td> <select id="tiposocio">
+                    <option value="---">----</option>
+                    <option value="socio">Socio</option>
+                     <option value="abono">Abono</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Elige localidad</td>
+            <td> <select id="localidad">
+                    <option value="---">----</option>
+                    <option value="tribunaalta">Tribuna alta</option>
+                    <option value="tribunabaja">Tribuna baja</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"><input id="botonprecio" name="botonsocio" type="submit" value="Consulta precio" onclick="ejtresa()"/></td>
+        </tr>
+        <tr>
+            <td>Cuota Anual</td>
+            <td><input id="cuota"  type="text"  disabled><br></td>
+        </tr>
+    </table>
+    <table id="tablasocio">
+        <caption>HAZTE SOCIO O COMPRA ABONO</caption>
+        <form name="form1" action="procesarDatos.php" method="post">
+        <tr>
+            <td>DNI </td>
+            <td> <input id="dni" name="dni"  type="text"  placeholder="Introduce DNI " required><br></td>
+        </tr>
+        <tr>
+            <td>Nombre y Apellidos</td>
+            <td><input name="nombre"  type="text"  placeholder="Nombre y apellidos" required><br></td>
+        </tr>
+        <tr>
+            <td>Edad </td>
+            <td><input name="edad"  type="text"  placeholder="Tu Edad" required><br></td>
+        </tr>
+        <tr>
+            <td>Elige socio o abono</td>
+            <td> <select required>
+                    <option value="">----</option>
+                    <option value="socio">Socio</option>
+                    <option value="abonado">Abono</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="hacersesocio"><input name="boton" type="submit" value="Hacerse socio/abono"/></td>
+        </tr>
+    </table>
+    </form>
+</div>
+<script src="script3.js"></script>
+</body>
+</html>

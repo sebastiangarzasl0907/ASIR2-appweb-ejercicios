@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilo1.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Adivina la Posición - Athletic Club</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" id="logo" src="imagenes/escudo.jpg"></a>
+        <div class="enlaces">
+            <a href="alineacion.html">Alineación</a>
+            <a href="socio.html">Hazte socio</a>
+            <a href="areasocio.html">Area socio</a>
+            <a href="juego.html">Juego</a>
+        </div>
+    </header>
+
+  <div id="sorteo">
+    <h1>¿Adivina la posición del jugador?</h1>
+    <p>Elige un jugador del Athletic y trata de adivinar si es portero, defensa, centrocampista o delantero.  
+       ¡Demuestra cuánto sabes de tu equipo!</p>
+  </div>
+
+  <div id="adivina">
+      <select id="jugador">
+          <option value="">Selecciona un jugador</option>
+          <option value="us">Unai Simón</option>
+          <option value="os">Oihan Sancet</option>
+          <option value="dv">Dani Vivian</option>
+          <option value="nw">Nico Williams</option>
+      </select>
+
+      <select id="posicion">
+          <option value="">Selecciona una posición</option>
+          <option value="por">Portero</option>
+          <option value="def">Defensa</option>
+          <option value="medio">Centrocampista</option>
+          <option value="del">Delantero</option>
+      </select>
+  </div>
+
+  <div id="boton">
+      <button id="comprobar">Comprobar</button>
+  </div>
+  <div id="ponercosas" style="text-align:center; margin-top:30px;"></div>
+<script src="script5.js"></script>
+</body>
+</html>

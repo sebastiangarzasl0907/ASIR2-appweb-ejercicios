@@ -1,0 +1,209 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-size: 1.2em;
+ }
+ /*PRIMERA PÁGINA DE LAS IMÁGENES GRANDES*/
+header{
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+     background-color: red; /* Color de fondo del menú */
+     border-bottom: 0;
+}
+
+
+#sanmames{
+    height: 400px;
+    width: 90%;
+}
+.enlaces {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content:space-between ; /* Centramos horizontalmente los elementos */
+    background-color: red; /* Color de fondo del menú */
+}
+.logo{
+    width: 50px;
+    margin: 5px 40px;
+}
+.enlaces a {
+    color: white; /* Color de texto de los enlaces */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.central{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 20px 0px;
+    overflow-y: auto;
+ }
+
+/*SEGUNDA PÁGINA DE ALINEACIÓN*/
+ .central2{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    overflow-y: auto;
+ }
+ .tablajugadores img{
+    width: 100px;
+    height: 100px;
+}
+.suplentes{
+    width: 200px;
+    height: 200px;
+}
+.tablajugadores{ 
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+input[type="submit"] {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de letra del botón */
+    background-color: #313531; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    border: none; /* Quita el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+}
+#bonito{
+    font-family: Arial, sans-serif; /* Cambiar la fuente */
+    font-size: 16px; /* Cambiar el tamaño de fuente */
+    color: white; /* Cambiar el color del texto */
+    background-color: red; /* Cambiar el color de fondo */
+    padding: 5px 10px; /* Agregar relleno */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    border: 1px solid #ccc; /* Agregar borde */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+#centrarbonito{
+    text-align: center;
+}
+
+/*TERCERA PÁGINA DE CUOTA Y SOCIO*/
+h1,h2,h3{
+    text-align: center;
+    border: 0px;
+}
+#tablacuota{
+    border: 2px solid grey;
+    width: 35%;
+}
+#tablasocio{
+    border: 2px solid grey;
+    width: 45%;
+}
+caption{
+    background-color: rgb(215, 199, 199);
+    border: 1px solid black;
+}
+#tablacuota, #tablasocio td{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#hacersesocio{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*PIE DE PÁGINA*/
+.pie {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+     margin-top: 15px;
+    margin-left: 300px;
+    list-style-type: none;
+    font-weight: bold;
+}
+.pie li{
+    color: white;
+}
+.app{
+    width: 40px;
+    margin-left: 100px;
+}
+
+input, select{
+    padding: 5px 10px; /* Espaciado interno del botón */
+
+}
+
+/*PAGINA AREA SOCIO*/
+h1 {
+    text-align: center;
+    padding: 10px;
+ }
+
+form{
+  width: 400px;
+  margin: 0px auto;
+}
+
+#campo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  #vercontra{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 0.8em;
+  }
+
+#iniciosesion{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding-top: 30px;
+}
+
+/*PAGINA JUEGO*/
+.alineararriba{
+        vertical-align: top;
+}
+
+#mejores, #adivina{
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 30px;
+
+}
+#mejores img {
+    width: 120px;
+    height: 120px; 
+    margin: 0px 40px;
+}
+
+#adivina select{
+    margin: 0px 30px;
+}
+
+#boton{
+    text-align: center;
+     padding-top: 30px;
+}
+button,#botonadivina{
+    font-size: 20px; /* Tamaño de letra del botón */
+    background-color: #313531; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    border: none; /* Quita el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+}
+#sorteo{
+    width: 90%;
+ margin: 20px auto;
+    background-color: red;
+    color: white;
+}
+p{
+    padding: 5px;
+}
+
+#botonsorteo{
+    padding: 5px;
+}

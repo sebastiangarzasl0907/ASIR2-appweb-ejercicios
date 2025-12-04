@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilo1.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Club</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" id="logo" src="imagenes/escudo.jpg"></a>
+        <div class="enlaces">
+            <a href="alineacion.html">Alineación</a>
+            <a href="socio.html">Hazte socio</a>
+            <a href="areasocio.html">Area socio</a>
+            <a href="juego.html">Juego</a>
+        </div>
+    </header>
+<h1>INICIAR SESION</h1>
+<div id="sesion">
+<form name="formulario" id="formulario" action="tratarDatos.php" method="">
+   <div id="campo">
+      <label for="username">Usuario:</label>
+      <input type="text" size="20"  id="username" name="username" required  placeholder="Ingrese su usuario">
+   </div>
+   <div id="campo">
+      <label for="contra">Contraseña:</label>
+      <input type="password" size="20" id="contra" name="contra" required placeholder="Ingrese su contraseña">
+   </div>
+   <div id="vercontra">
+       <input name="vercontra"  type="checkbox" id="confirmo"> 
+       <label for="vercontra">Ver contraseña</label>
+   </div>
+   <div id="iniciosesion">
+   <input name="boton" type="submit"   value="Iniciar sesión"> </input>         
+   </div>
+ </form>
+</div>
+<script src="script4.js"></script>
+</body>
+</html>
